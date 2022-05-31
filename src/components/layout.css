@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran&display=swap");
+
+body {
+  font-family: "Catamaran", sans-serif;
+  margin: 0;
+  -webkit-fontt-smoothing: animated;
+  line-height: 1.3;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+main {
+  padding: 24px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.btn {
+  margin: 8px 0px;
+  border: 2px solid;
+  border-radius: 20px;
+  font-weight: bold;
+  padding: 8px 16px;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.btn:hover {
+  background-color: #333;
+  color: white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+  transform: translateY(-3px);
+}
+
+@media (prefers-color-scheme: dark) {
+  .btn:hover {
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 255.25) !important;
+  }
+}
+
+img.IDEO {
+  height: 75px;
+}
+
+.Cards h2 {
+  margin: 50px 20px;
+  font-size: 60px;
+  text-align: center;
+  font-weight: 700;
+  background: linear-gradient(104.74deg, #050a27 0%, #4a548c 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.CardGroup {
+  margin: 50px 40px 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  justify-items: center;
+}
+
+@media (max-width: 1060px) {
+  .CardGroup {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 720px) {
+  .CardGroup {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.ProjectGroup {
+  justify-items: center;
+}
+
+#PS5 {
+  background: url("https://i.ytimg.com/vi/8ehAjJdX9MM/maxresdefault.jpg");
+  background-size: cover;
+  border-color: #333;
+}
+
+#PS5 img {
+  width: 125px;
+}
+
+#Academic {
+  background-color: #763cbe;
+  border-color: #fff;
+}
+
+#UCAS {
+  background: #763cbe;
+  border-color: #fff;
+}
+
+#UCAS img {
+  max-width: 120px;
+}
+
+#EE {
+  border-color: #f5d500;
+  background: #009C9C;
+}
+
+#EE img {
+  max-width: 140px;
+}
+
+#ASSIZT {
+  border-color: #ffd343;
+  background: #15113b;
+}
+
+#ASSIZT img {
+  max-width: 240px;
+}
+
+#PL {
+  border-color: #37003c;
+  background-color: #410d46;
+}
+
+#PL img {
+  max-width: 140px;
+}
+
+#smarthomehelp {
+  background-color: #2f6e91;
+  border-color: #fff;
+}
+
+#smarthomehelp img {
+  max-width: 240px;
+}
+
+#SolidRoute {
+  background-color: #4a74c5;
+  border-color: #4a74c5;
+}
+
+#SolidRoute img {
+  max-width: 240px;
+  max-height: 240px;
+}
+
+#Beaverbrooks {
+  border-color: #974d7b;
+  background: #974d7b;
+}
+
+#Beaverbrooks img {
+  max-width: 280px;
+}
+
+#UCLan {
+  background: #ce1141;
+  border-color: #ce1141;
+}
+
+#UCLan img {
+  max-width: 120px;
+}
+
+#eyesight {
+  background: #629e2e;
+  border-color: #629e2e;
+}
+
+#eyesight img {
+  max-width: 120px;
+}
+
+#SCRAN {
+  border-color: #43b961;
+}
+
+#SCRAN img {
+  max-width: 200px;
+}
+
+#GMail {
+  background: #fd2d30;
+  border-color: #fd2d30;
+}
+
+#GMail img {
+  max-width: 250px;
+}
+
+#R2D2 {
+  border-color: #133e9f;
+}
+
+#R2D2 img {
+  max-width: 150px;
+}
+
+#Radar {
+  background-color: #fff;
+}
+#FoodStall {
+  background: #f3f4dd;
+  border-color: #f7dfa2;
+}
+
+#Salad {
+  background: #66a037;
+  border-color: #94e751;
+}
+
+#React {
+  background: #19204e;
+  border-color: #61dbfb;
+}
+
+#ReactIcon {
+  animation: React-spin infinite 10s linear;
+}
+
+.tab-list {
+  padding-left: 0;
+}
+
+li.tab-list-item {
+  margin: 8px 8px 8px 0px;
+  border: 2px solid;
+  border-radius: 20px;
+  font-weight: bold;
+  padding: 8px 16px;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.tab-list-item {
+  display: inline-block;
+  list-style: none;
+  margin-bottom: -1px;
+}
+
+.tab-list-active {
+  background-color: #333;
+  color: white !important;
+}
+
+.tab-list-item:hover {
+  background-color: #333;
+  color: white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+  transform: translateY(-3px);
+}
+@media (prefers-color-scheme: dark) {
+  .tab-list-item:hover {
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 255.25) !important;
+  }
+}
